@@ -8,7 +8,7 @@ metadata:
 
   labels:
 
-    app: todo
+    app: todo-app
 
 spec:
 
@@ -18,7 +18,7 @@ spec:
 
     matchLabels:
 
-      app: todo
+      app: todo-app
 
   template:
 
@@ -26,13 +26,13 @@ spec:
 
       labels:
 
-        app: todo
+        app: todo-app
 
     spec:
 
       containers:
 
-      - name: todo
+      - name: todo-app
 
         image: vishalpraneeth7771/todo-app:latest
 
