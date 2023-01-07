@@ -13,6 +13,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='todo',
             name='deadline',
-            field=models.DateTimeField(blank=True, verbose_name='Deadline'),
+            field=models.DateTimeField(blank=False, verbose_name='Deadline'),
         ),
     ]
