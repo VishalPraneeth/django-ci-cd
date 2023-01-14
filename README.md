@@ -37,5 +37,6 @@ To build docker image from Dockerfile
 ```bash
 $ docker build -t image_name:tag .
 ```
+To run docker image
 
 Cheers and Happy Coding :)
