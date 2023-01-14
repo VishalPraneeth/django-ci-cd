@@ -32,4 +32,10 @@ $ python3 manage.py runserver
 
 Once the server is hosted, head over to http://127.0.0.1:8000/todos for the App.
 
+
+
+```bash
+$ docker build -t image_name:tag .
+```
+
 Cheers and Happy Coding :)
